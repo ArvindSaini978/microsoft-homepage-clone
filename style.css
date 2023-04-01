@@ -1,0 +1,44 @@
+.btn:hover a {
+    border-bottom: 2px solid black;
+}
+
+.lst {
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.lst:hover {
+    border-bottom: 2px solid black;
+}
+
+.navigation-menu{
+    height: 0px;
+    width: 0%;
+    transition: all 0.3s ease-in;
+}
+
+.expand{
+    height: 230px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+}
+
+/* .animate {
+    height: 0px;
+    width: 0%;
+    animation-name: mymate;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+
+@keyframes mymate {
+    to {
+        height: 230px;
+        width: 100%;
+    }
+} */
+
+.header{
+    backdrop-filter: blur(4px);
+}
